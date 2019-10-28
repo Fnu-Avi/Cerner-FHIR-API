@@ -1,0 +1,2895 @@
+{
+    "resourceType": "Bundle",
+    "id": "66bb3d0d-40f4-4b31-bb25-301aa7cc088e",
+    "type": "searchset",
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment?-pageContext=H4sIAAAAAAAAAHWTTW%2FbMAyG%2F4vOzkBZomT71jU97FIUaA7Dhh60hGsFtHYgK8Wwov99%2BqDjoNsAA49JveJLCeKbcMfj5Mf4QmO8Jxf2T9fBRwreieFNHN0j3fvfJAaERvygRz9uXaSdf0kp0YK0Gwkb0DvoBoD0fQJIMaY%2F0QgaD3%2Bp5abtd9APclWbqn6e9i76abyeDjSL4ftDk%2ByjT3192eZYW9AANqfD9OoPFGo%2BJQLN0ynsiRPvzeWpalIBoEXToO6l1djUuE9sEzuOVaWBzL7qpFxpMtFqm6lWGiby%2BsKcb6U12GjTlvVKk6hkjRXXba1FnZjjvsalTiavF7%2FMjvXAZB0WHfe91M3smDb7Ifsi91HOk2539UPJbJmq7i9%2BSp7rF11my1x05Rx8H4rvR%2FF9ZXbMvrLWVVyP%2B1B8bmXP%2B6qPYh%2FFPvZcDxcd%2ByL7mqX%2BomNfw3UM92sks%2BzHc%2F%2Bm5TjX01h9NL8bze9I8bsw6f7zKx3pV%2Fz8z4kpMyBxkJJn4Juo8qvLVyuG5Y7Sg6dXP53mD%2BsbuS7d%2FG%2FWsg9c%2BASKzo90uPo4IQ9rsbs09lsfaJ%2FnMZW7vfm6S1uf3Hx3oRDDT%2Fc8U8nfpu5rLoYTvf8BtvLy1lcEAAA%3D&-pageDirection=NEXT"
+        },
+        {
+            "relation": "previous",
+            "url": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment?-pageContext=H4sIAAAAAAAAAOWTz26DMAzG3yVnmBwIUHLr2h52qSqVw7Rphwy8NlILVUiraVXffQkxGtL%2BvMAkpB%2F%2BbOLkM7kydTp1urVHbO0Wlan3C6MtGq2YvLKT2uFWfyCTGUTsFXe6XSqLlT46iSXAi5hDDKKCmQRwzx2AizP3xiKGbfOtmsdJWUEp%2BVd1HqoPXa2s7tpF12DP5PNL5Npb7fb1sPSxKEAAFF423UU3aILuBIN9dzY1knCLpqcKYgppWogyGugOE8g9i0JkxJxYUD4hpkRB%2BRnFY11GzAPzcf2xjvrmtE4uiJw4fJ%2FRPlycUOzXE1no4zkjlpT3el46OhNafLf3P05o8JxnknPy%2FImF8vnUJSZj7r3Fi%2B7O%2FR%2Bp1W9j9S1g0sKgVbrFZv7%2FhjF6tXEXaKkN1v7Pdm6tV4%2BVc2av%2Bs2kgklrzjjIazeWIL2pQ4%2B3T7YiYf6hAwAA&-pageDirection=PREVIOUS"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033749",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033749",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T13:43:43.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 16, 2017  2:00 P.M. UTC</p><p><b>End</b>: Nov 16, 2017  3:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-16T14:00:00.000Z",
+                "end": "2017-11-16T15:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033750",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033750",
+                "meta": {
+                    "versionId": "2",
+                    "lastUpdated": "2019-06-04T18:27:38.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 16, 2017  3:00 P.M. UTC</p><p><b>End</b>: Nov 16, 2017  4:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Cancelled</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "cancelled",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-16T15:00:00.000Z",
+                "end": "2017-11-16T16:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033751",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033751",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T14:06:06.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 20, 2017  2:00 P.M. UTC</p><p><b>End</b>: Nov 20, 2017  3:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-20T14:00:00.000Z",
+                "end": "2017-11-20T15:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3037745",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3037745",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-09T12:26:40.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 20, 2017  3:00 P.M. UTC</p><p><b>End</b>: Nov 20, 2017  4:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-20T15:00:00.000Z",
+                "end": "2017-11-20T16:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3037746",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3037746",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-09T12:29:11.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 20, 2017  4:00 P.M. UTC</p><p><b>End</b>: Nov 20, 2017  5:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-20T16:00:00.000Z",
+                "end": "2017-11-20T17:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3037747",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3037747",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-09T12:34:33.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 20, 2017  5:00 P.M. UTC</p><p><b>End</b>: Nov 20, 2017  6:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-20T17:00:00.000Z",
+                "end": "2017-11-20T18:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033752",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033752",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:02:32.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 21, 2017  2:00 P.M. UTC</p><p><b>End</b>: Nov 21, 2017  3:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-21T14:00:00.000Z",
+                "end": "2017-11-21T15:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033753",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033753",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:10:12.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 21, 2017  4:00 P.M. UTC</p><p><b>End</b>: Nov 21, 2017  5:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-21T16:00:00.000Z",
+                "end": "2017-11-21T17:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033754",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033754",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:10:50.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 21, 2017  5:00 P.M. UTC</p><p><b>End</b>: Nov 21, 2017  6:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-21T17:00:00.000Z",
+                "end": "2017-11-21T18:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3037748",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3037748",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-09T13:37:50.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 22, 2017  2:00 P.M. UTC</p><p><b>End</b>: Nov 22, 2017  3:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-22T14:00:00.000Z",
+                "end": "2017-11-22T15:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033757",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033757",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:12:43.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 22, 2017  3:00 P.M. UTC</p><p><b>End</b>: Nov 22, 2017  4:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-22T15:00:00.000Z",
+                "end": "2017-11-22T16:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033755",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033755",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:12:32.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 22, 2017  4:00 P.M. UTC</p><p><b>End</b>: Nov 22, 2017  5:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-22T16:00:00.000Z",
+                "end": "2017-11-22T17:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033756",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033756",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:12:39.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 22, 2017  5:00 P.M. UTC</p><p><b>End</b>: Nov 22, 2017  6:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-22T17:00:00.000Z",
+                "end": "2017-11-22T18:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033760",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033760",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:14:56.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 23, 2017  3:00 P.M. UTC</p><p><b>End</b>: Nov 23, 2017  4:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-23T15:00:00.000Z",
+                "end": "2017-11-23T16:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033758",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033758",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:14:44.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 23, 2017  4:00 P.M. UTC</p><p><b>End</b>: Nov 23, 2017  5:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-23T16:00:00.000Z",
+                "end": "2017-11-23T17:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033759",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033759",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:14:51.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 23, 2017  5:00 P.M. UTC</p><p><b>End</b>: Nov 23, 2017  6:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-23T17:00:00.000Z",
+                "end": "2017-11-23T18:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033763",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033763",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:21:32.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 24, 2017  3:00 P.M. UTC</p><p><b>End</b>: Nov 24, 2017  4:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-24T15:00:00.000Z",
+                "end": "2017-11-24T16:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033764",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033764",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:26:48.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 24, 2017  4:00 P.M. UTC</p><p><b>End</b>: Nov 24, 2017  5:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-24T16:00:00.000Z",
+                "end": "2017-11-24T17:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033761",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033761",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:21:11.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 25, 2017  3:00 P.M. UTC</p><p><b>End</b>: Nov 25, 2017  4:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-25T15:00:00.000Z",
+                "end": "2017-11-25T16:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033765",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033765",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:30:01.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 25, 2017  4:00 P.M. UTC</p><p><b>End</b>: Nov 25, 2017  5:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-25T16:00:00.000Z",
+                "end": "2017-11-25T17:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3035745",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3035745",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T18:14:29.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 26, 2017  2:00 P.M. UTC</p><p><b>End</b>: Nov 26, 2017  3:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-26T14:00:00.000Z",
+                "end": "2017-11-26T15:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3033762",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3033762",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T15:21:19.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 26, 2017  3:00 P.M. UTC</p><p><b>End</b>: Nov 26, 2017  4:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-26T15:00:00.000Z",
+                "end": "2017-11-26T16:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3035746",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3035746",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T18:18:21.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 26, 2017  4:00 P.M. UTC</p><p><b>End</b>: Nov 26, 2017  5:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-26T16:00:00.000Z",
+                "end": "2017-11-26T17:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3045757",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3045757",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-16T08:28:51.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 26, 2017  5:00 P.M. UTC</p><p><b>End</b>: Nov 26, 2017  6:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-26T17:00:00.000Z",
+                "end": "2017-11-26T18:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3045758",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3045758",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-16T08:30:28.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 26, 2017  6:00 P.M. UTC</p><p><b>End</b>: Nov 26, 2017  7:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-26T18:00:00.000Z",
+                "end": "2017-11-26T19:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3045759",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3045759",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-16T08:31:20.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 26, 2017  7:00 P.M. UTC</p><p><b>End</b>: Nov 26, 2017  8:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-26T19:00:00.000Z",
+                "end": "2017-11-26T20:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3035747",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3035747",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-07T18:21:46.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Same Day</p><p><b>Type</b>: Same Day</p><p><b>Start</b>: Nov 26, 2017  9:00 P.M. UTC</p><p><b>End</b>: Nov 26, 2017 10:00 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "408443003",
+                            "display": "General medical practice",
+                            "userSelected": false
+                        },
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "21265426",
+                            "display": "Same Day",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Same Day"
+                },
+                "description": "Same Day",
+                "start": "2017-11-26T21:00:00.000Z",
+                "end": "2017-11-26T22:00:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://fhir-open.sandboxcerner.com/dstu2/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/Appointment/3069747",
+            "resource": {
+                "resourceType": "Appointment",
+                "id": "3069747",
+                "meta": {
+                    "versionId": "0",
+                    "lastUpdated": "2017-11-29T12:11:08.000Z"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div><p><b>Appointment</b></p><p><b>Description</b>: Mplus Appt</p><p><b>Type</b>: Mplus Appt</p><p><b>Start</b>: Nov 29, 2017  2:10 P.M. UTC</p><p><b>End</b>: Nov 29, 2017  3:10 P.M. UTC</p><p><b>Duration</b>: 60 Minutes</p><p><b>Status</b>: Booked</p><p><b>Location</b>: Baseline West</p><p><b>Participants</b>:</p><p><b>Patient</b>: Smart, Barney R</p><br /><p><b>Practitioner</b>: Howdeshell, Tami</p><p><b>Primary</b>: Yes</p></div>"
+                },
+                "status": "booked",
+                "type": {
+                    "coding": [
+                        {
+                            "system": "https://fhir.cerner.com/0b8a0111-e8e6-4c26-a91c-5069cbc6b1ca/codeSet/14249",
+                            "code": "22378561",
+                            "display": "Mplus Appt",
+                            "userSelected": true
+                        }
+                    ],
+                    "text": "Mplus Appt"
+                },
+                "description": "Mplus Appt",
+                "start": "2017-11-29T14:10:00.000Z",
+                "end": "2017-11-29T15:10:00.000Z",
+                "minutesDuration": 60,
+                "participant": [
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Resource"
+                            },
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v3/ParticipationType",
+                                        "code": "PPRF",
+                                        "display": "primary performer",
+                                        "userSelected": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Practitioner/2578010",
+                            "display": "Howdeshell, Tami"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "type": [
+                            {
+                                "coding": [
+                                    {
+                                        "extension": [
+                                            {
+                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                                "valueCode": "unknown"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "text": "Patient"
+                            }
+                        ],
+                        "actor": {
+                            "reference": "Patient/4704007",
+                            "display": "Smart, Barney R"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    },
+                    {
+                        "actor": {
+                            "reference": "Location/633867",
+                            "display": "Baseline West"
+                        },
+                        "required": "required",
+                        "status": "accepted"
+                    }
+                ]
+            }
+        }
+    ]
+}
